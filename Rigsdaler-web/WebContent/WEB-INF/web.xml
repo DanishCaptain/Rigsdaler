@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>Rigsdaler</servlet-name>
+    <servlet-class>com.danskkaptajn.rigsdaler.web.RigsdalerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Rigsdaler</servlet-name>
+    <url-pattern>/Rigsdaler</url-pattern>
+  </servlet-mapping>
+</web-app> 
